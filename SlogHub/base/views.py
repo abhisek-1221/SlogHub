@@ -7,12 +7,6 @@ from django.http import HttpResponse
 from .models import Room,Topic
 from .forms import RoomForm
 
-# rooms = [
-#     {'id':1, 'name':'Lets learn python'},
-#     {'id':2, 'name':'UML'},
-#     {'id':3, 'name':'OOPS'},
-# ]
-
 def loginPage(request):
     
     if request.method == 'POST':
